@@ -1,0 +1,9 @@
+Lines in Schema without if-then-else:	 359
+Lines in Schema with if-then-else:		 449 (90 additional lines)
+
+Runtime: 3.584289789199829s
+If-then-else Relations found: 3
+
+Schema validation passed
+JSON validation passed
+

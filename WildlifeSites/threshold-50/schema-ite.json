@@ -1,0 +1,182 @@
+{
+  "allOf": [
+    {
+      "title": "undefined",
+      "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 01:02:56.386322.",
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "geometry": {
+                "type": "object",
+                "properties": {
+                  "coordinates": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "anyOf": [
+                            {
+                              "type": "number",
+                              "description": "Occurrence: 126658/126942, 99%"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "number",
+                                "description": "Occurrence: 90349/90349, 100%"
+                              },
+                              "description": "Occurrence: 90349/126942, 71%"
+                            }
+                          ]
+                        },
+                        "description": "Occurrence: 126942/126942, 100%"
+                      },
+                      "description": "Occurrence: 614/614, 100%"
+                    },
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 350/350, 100%"
+                  }
+                },
+                "required": [
+                  "coordinates",
+                  "type"
+                ],
+                "description": "Occurrence: 350/350, 100%"
+              },
+              "properties": {
+                "type": "object",
+                "properties": {
+                  "Area_ha": {
+                    "type": [
+                      "number",
+                      "integer"
+                    ],
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "Date_LSPartnership_approval": {
+                    "type": "string",
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "Designation_name": {
+                    "type": "string",
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "District": {
+                    "type": "string",
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "Eastings": {
+                    "type": "integer",
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "Grid_reference": {
+                    "type": "string",
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "ID": {
+                    "type": "integer",
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "Northings": {
+                    "type": "integer",
+                    "description": "Occurrence: 350/350, 100%"
+                  },
+                  "Note": {
+                    "type": "string",
+                    "description": "Occurrence: 2/350, 0%"
+                  },
+                  "Site_name": {
+                    "type": "string",
+                    "description": "Occurrence: 350/350, 100%"
+                  }
+                },
+                "required": [
+                  "Area_ha",
+                  "Date_LSPartnership_approval",
+                  "Designation_name",
+                  "District",
+                  "Eastings",
+                  "Grid_reference",
+                  "ID",
+                  "Northings",
+                  "Site_name"
+                ],
+                "description": "Occurrence: 350/350, 100%"
+              },
+              "type": {
+                "type": "string",
+                "description": "Occurrence: 350/350, 100%"
+              }
+            },
+            "required": [
+              "geometry",
+              "properties",
+              "type"
+            ],
+            "description": "Occurrence: 350/350, 100%"
+          },
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "name": {
+          "type": "string",
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "type": {
+          "type": "string",
+          "description": "Occurrence: 1/1, 100%"
+        }
+      },
+      "required": [
+        "features",
+        "name",
+        "type"
+      ],
+      "time1": "0:00:01.632501"
+    },
+    {
+      "properties": {
+        "features": {
+          "items": {
+            "properties": {
+              "geometry": {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "Polygon"
+                    }
+                  }
+                },
+                "then": {
+                  "properties": {
+                    "coordinates": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

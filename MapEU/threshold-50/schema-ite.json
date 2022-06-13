@@ -1,0 +1,449 @@
+{
+  "allOf": [
+    {
+      "title": "undefined",
+      "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 00:59:21.814032.",
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {
+        "arcs": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "description": "Occurrence: 16782/16782, 100%"
+              },
+              "description": "Occurrence: 16782/16782, 100%"
+            },
+            "description": "Occurrence: 1724/1724, 100%"
+          },
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "description": "Occurrence: 1/1, 100%"
+          },
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "objects": {
+          "type": "object",
+          "properties": {
+            "centroid": {
+              "type": "object",
+              "properties": {
+                "geometries": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "description": "Occurrence: 324/324, 100%"
+                        },
+                        "description": "Occurrence: 324/324, 100%"
+                      },
+                      "properties": {
+                        "type": "object",
+                        "properties": {
+                          "ID": {
+                            "type": "string",
+                            "description": "Occurrence: 324/324, 100%"
+                          }
+                        },
+                        "required": [
+                          "ID"
+                        ],
+                        "description": "Occurrence: 324/324, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 324/324, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "properties",
+                      "type"
+                    ],
+                    "description": "Occurrence: 324/324, 100%"
+                  },
+                  "description": "Occurrence: 1/1, 100%"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Occurrence: 1/1, 100%"
+                }
+              },
+              "required": [
+                "geometries",
+                "type"
+              ],
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "line": {
+              "type": "object",
+              "properties": {
+                "geometries": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "arcs": {
+                        "type": "array",
+                        "items": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "description": "Occurrence: 690/726, 95%"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "integer",
+                                "description": "Occurrence: 73/73, 100%"
+                              },
+                              "description": "Occurrence: 73/726, 10%"
+                            }
+                          ]
+                        },
+                        "description": "Occurrence: 726/726, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 726/726, 100%"
+                      }
+                    },
+                    "required": [
+                      "arcs",
+                      "type"
+                    ],
+                    "description": "Occurrence: 726/726, 100%"
+                  },
+                  "description": "Occurrence: 1/1, 100%"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Occurrence: 1/1, 100%"
+                }
+              },
+              "required": [
+                "geometries",
+                "type"
+              ],
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "line-up": {
+              "type": "object",
+              "properties": {
+                "geometries": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "arcs": {
+                        "type": "array",
+                        "items": {
+                          "anyOf": [
+                            {
+                              "type": "integer",
+                              "description": "Occurrence: 220/243, 90%"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "integer",
+                                "description": "Occurrence: 57/57, 100%"
+                              },
+                              "description": "Occurrence: 57/243, 23%"
+                            }
+                          ]
+                        },
+                        "description": "Occurrence: 243/243, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 243/243, 100%"
+                      }
+                    },
+                    "required": [
+                      "arcs",
+                      "type"
+                    ],
+                    "description": "Occurrence: 243/243, 100%"
+                  },
+                  "description": "Occurrence: 1/1, 100%"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Occurrence: 1/1, 100%"
+                }
+              },
+              "required": [
+                "geometries",
+                "type"
+              ],
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "poly": {
+              "type": "object",
+              "properties": {
+                "geometries": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "arcs": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "anyOf": [
+                              {
+                                "type": "integer",
+                                "description": "Occurrence: 266/589, 45%"
+                              },
+                              {
+                                "type": "array",
+                                "items": {
+                                  "type": "integer",
+                                  "description": "Occurrence: 324/324, 100%"
+                                },
+                                "description": "Occurrence: 324/589, 55%"
+                              }
+                            ]
+                          },
+                          "description": "Occurrence: 589/589, 100%"
+                        },
+                        "description": "Occurrence: 324/324, 100%"
+                      },
+                      "properties": {
+                        "type": "object",
+                        "properties": {
+                          "ID": {
+                            "type": "string",
+                            "description": "Occurrence: 324/324, 100%"
+                          }
+                        },
+                        "required": [
+                          "ID"
+                        ],
+                        "description": "Occurrence: 324/324, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 324/324, 100%"
+                      }
+                    },
+                    "required": [
+                      "arcs",
+                      "properties",
+                      "type"
+                    ],
+                    "description": "Occurrence: 324/324, 100%"
+                  },
+                  "description": "Occurrence: 1/1, 100%"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Occurrence: 1/1, 100%"
+                }
+              },
+              "required": [
+                "geometries",
+                "type"
+              ],
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "poly-down": {
+              "type": "object",
+              "properties": {
+                "geometries": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "arcs": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "integer",
+                              "description": "Occurrence: 462/462, 100%"
+                            },
+                            "description": "Occurrence: 462/462, 100%"
+                          },
+                          "description": "Occurrence: 456/456, 100%"
+                        },
+                        "description": "Occurrence: 1/1, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 1/1, 100%"
+                      }
+                    },
+                    "required": [
+                      "arcs",
+                      "type"
+                    ],
+                    "description": "Occurrence: 1/1, 100%"
+                  },
+                  "description": "Occurrence: 1/1, 100%"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "Occurrence: 1/1, 100%"
+                }
+              },
+              "required": [
+                "geometries",
+                "type"
+              ],
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "centroid",
+            "line",
+            "line-up",
+            "poly",
+            "poly-down"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "transform": {
+          "type": "object",
+          "properties": {
+            "scale": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "description": "Occurrence: 1/1, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "translate": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "description": "Occurrence: 1/1, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "scale",
+            "translate"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "type": {
+          "type": "string",
+          "description": "Occurrence: 1/1, 100%"
+        }
+      },
+      "required": [
+        "arcs",
+        "bbox",
+        "objects",
+        "transform",
+        "type"
+      ],
+      "time1": "0:00:00.278999"
+    },
+    {
+      "properties": {
+        "objects": {
+          "properties": {
+            "line-up": {
+              "properties": {
+                "geometries": {
+                  "items": {
+                    "if": {
+                      "properties": {
+                        "type": {
+                          "const": "LineString"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "arcs": {
+                          "type": "array",
+                          "items": {
+                            "type": "integer"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "line": {
+              "properties": {
+                "geometries": {
+                  "items": {
+                    "if": {
+                      "properties": {
+                        "type": {
+                          "const": "LineString"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "arcs": {
+                          "type": "array",
+                          "items": {
+                            "type": "integer"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "poly": {
+              "properties": {
+                "geometries": {
+                  "items": {
+                    "if": {
+                      "properties": {
+                        "type": {
+                          "const": "Polygon"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "arcs": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "integer"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

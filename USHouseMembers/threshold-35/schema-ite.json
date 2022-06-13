@@ -1,0 +1,545 @@
+{
+  "allOf": [
+    {
+      "title": "undefined",
+      "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 01:00:29.023324.",
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "geometry": {
+                "type": "object",
+                "properties": {
+                  "coordinates": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "anyOf": [
+                          {
+                            "type": "number",
+                            "description": "Occurrence: 26/39, 66%"
+                          },
+                          {
+                            "type": "array",
+                            "items": {
+                              "type": "number",
+                              "description": "Occurrence: 5282/5282, 100%"
+                            },
+                            "description": "Occurrence: 5282/39, 13543%"
+                          }
+                        ]
+                      },
+                      "description": "Occurrence: 39/39, 100%"
+                    },
+                    "description": "Occurrence: 26/26, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 26/26, 100%"
+                  }
+                },
+                "required": [
+                  "coordinates",
+                  "type"
+                ],
+                "description": "Occurrence: 26/26, 100%"
+              },
+              "properties": {
+                "type": "object",
+                "properties": {
+                  "birth-place": {
+                    "type": "string",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "birth-score": {
+                    "type": "integer",
+                    "description": "Occurrence: 26/26, 100%"
+                  },
+                  "birth-state": {
+                    "type": "null",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "born-in-state": {
+                    "type": "boolean",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "born-in-us": {
+                    "type": "boolean",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "born-there": {
+                    "type": "boolean",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "distance": {
+                    "type": "integer",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "district": {
+                    "type": "integer",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "fill": {
+                    "type": "string",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "fill-opacity": {
+                    "type": "number",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "fips": {
+                    "type": "integer",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "gpo": {
+                    "type": "object",
+                    "properties": {
+                      "BioData": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "BirthDate": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "BirthPlace": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "CongressionalDescription": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Counties": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "District": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "ElectedDate": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Email": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "FirstName": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "FourYearTerm": {
+                        "type": "boolean",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Hometown": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "ImageToolTip": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "ImageUrl": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "LastName": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "MemberId": {
+                        "type": "integer",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "MemberType": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "MemberTypeId": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "MemIndexId": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "MiddleName": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Name": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "PartyDescription": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "PartyId": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Prefix": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "PriorSenateService": {
+                        "type": "boolean",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "PublicUrl": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "slug": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "StateDescription": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "StateId": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Suffix": {
+                        "type": "null",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "TermCount": {
+                        "type": "integer",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "TermsConsecutive": {
+                        "type": "boolean",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "ThumbNailImageUrl": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Title": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "Url": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "ZipCodes": {
+                        "type": "string",
+                        "description": "Occurrence: 13/13, 100%"
+                      }
+                    },
+                    "required": [
+                      "BioData",
+                      "BirthDate",
+                      "BirthPlace",
+                      "CongressionalDescription",
+                      "Counties",
+                      "District",
+                      "ElectedDate",
+                      "Email",
+                      "FirstName",
+                      "FourYearTerm",
+                      "Hometown",
+                      "ImageToolTip",
+                      "ImageUrl",
+                      "LastName",
+                      "MemberId",
+                      "MemberType",
+                      "MemberTypeId",
+                      "MemIndexId",
+                      "MiddleName",
+                      "Name",
+                      "PartyDescription",
+                      "PartyId",
+                      "Prefix",
+                      "PriorSenateService",
+                      "PublicUrl",
+                      "slug",
+                      "StateDescription",
+                      "StateId",
+                      "Suffix",
+                      "TermCount",
+                      "TermsConsecutive",
+                      "ThumbNailImageUrl",
+                      "Title",
+                      "Url",
+                      "ZipCodes"
+                    ],
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "hometown": {
+                    "type": "string",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "lives-there": {
+                    "type": "boolean",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "name": {
+                    "type": "string",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "offices-out-of-district": {
+                    "type": "boolean",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "party": {
+                    "type": "string",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "point": {
+                    "type": "object",
+                    "properties": {
+                      "birthplace": {
+                        "type": "object",
+                        "properties": {
+                          "geometry": {
+                            "type": "object",
+                            "properties": {
+                              "coordinates": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "description": "Occurrence: 13/13, 100%"
+                                },
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "type": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              }
+                            },
+                            "required": [
+                              "coordinates",
+                              "type"
+                            ],
+                            "description": "Occurrence: 13/13, 100%"
+                          },
+                          "properties": {
+                            "type": "object",
+                            "properties": {
+                              "marker-color": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "marker-size": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "name": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "slug": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "type": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              }
+                            },
+                            "required": [
+                              "marker-color",
+                              "marker-size",
+                              "name",
+                              "slug",
+                              "type"
+                            ],
+                            "description": "Occurrence: 13/13, 100%"
+                          },
+                          "type": {
+                            "type": "string",
+                            "description": "Occurrence: 13/13, 100%"
+                          }
+                        },
+                        "required": [
+                          "geometry",
+                          "properties",
+                          "type"
+                        ],
+                        "description": "Occurrence: 13/13, 100%"
+                      },
+                      "hometown": {
+                        "type": "object",
+                        "properties": {
+                          "geometry": {
+                            "type": "object",
+                            "properties": {
+                              "coordinates": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "description": "Occurrence: 13/13, 100%"
+                                },
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "type": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              }
+                            },
+                            "required": [
+                              "coordinates",
+                              "type"
+                            ],
+                            "description": "Occurrence: 13/13, 100%"
+                          },
+                          "properties": {
+                            "type": "object",
+                            "properties": {
+                              "marker-color": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "marker-size": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "name": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "slug": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              },
+                              "type": {
+                                "type": "string",
+                                "description": "Occurrence: 13/13, 100%"
+                              }
+                            },
+                            "required": [
+                              "marker-color",
+                              "marker-size",
+                              "name",
+                              "slug",
+                              "type"
+                            ],
+                            "description": "Occurrence: 13/13, 100%"
+                          },
+                          "type": {
+                            "type": "string",
+                            "description": "Occurrence: 13/13, 100%"
+                          }
+                        },
+                        "required": [
+                          "geometry",
+                          "properties",
+                          "type"
+                        ],
+                        "description": "Occurrence: 13/13, 100%"
+                      }
+                    },
+                    "required": [
+                      "birthplace",
+                      "hometown"
+                    ],
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "same-exact-place": {
+                    "type": "boolean",
+                    "description": "Occurrence: 13/26, 50%"
+                  },
+                  "slug": {
+                    "type": "string",
+                    "description": "Occurrence: 26/26, 100%"
+                  },
+                  "state": {
+                    "type": "string",
+                    "description": "Occurrence: 13/26, 50%"
+                  }
+                },
+                "required": [
+                  "birth-score",
+                  "slug"
+                ],
+                "description": "Occurrence: 26/26, 100%"
+              },
+              "type": {
+                "type": "string",
+                "description": "Occurrence: 26/26, 100%"
+              }
+            },
+            "required": [
+              "geometry",
+              "properties",
+              "type"
+            ],
+            "description": "Occurrence: 26/26, 100%"
+          },
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "type": {
+          "type": "string",
+          "description": "Occurrence: 1/1, 100%"
+        }
+      },
+      "required": [
+        "features",
+        "type"
+      ],
+      "time1": "0:00:00.050999"
+    },
+    {
+      "properties": {
+        "features": {
+          "items": {
+            "properties": {
+              "geometry": {
+                "if": {
+                  "properties": {
+                    "type": {
+                      "const": "LineString"
+                    }
+                  }
+                },
+                "then": {
+                  "properties": {
+                    "coordinates": {
+                      "type": "array",
+                      "items": {
+                        "type": "array"
+                      }
+                    }
+                  }
+                },
+                "else": {
+                  "if": {
+                    "properties": {
+                      "type": {
+                        "const": "Polygon"
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "array"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1510 @@
+{
+  "allOf": [
+    {
+      "title": "undefined",
+      "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 01:00:14.689823.",
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {
+        "boundaries": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "buildings": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "anyOf": [
+                                {
+                                  "type": "number",
+                                  "description": "Occurrence: 1049/1244, 84%"
+                                },
+                                {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "number",
+                                    "description": "Occurrence: 1152/1152, 100%"
+                                  },
+                                  "description": "Occurrence: 1152/1244, 92%"
+                                }
+                              ]
+                            },
+                            "description": "Occurrence: 1244/1244, 100%"
+                          },
+                          "description": "Occurrence: 320/320, 100%"
+                        },
+                        "description": "Occurrence: 170/170, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 170/170, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "type"
+                    ],
+                    "description": "Occurrence: 170/170, 100%"
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "addr_housenumber": {
+                        "type": "string",
+                        "description": "Occurrence: 22/170, 12%"
+                      },
+                      "addr_street": {
+                        "type": "string",
+                        "description": "Occurrence: 23/170, 13%"
+                      },
+                      "area": {
+                        "type": "integer",
+                        "description": "Occurrence: 170/170, 100%"
+                      },
+                      "height": {
+                        "type": [
+                          "number",
+                          "integer"
+                        ],
+                        "description": "Occurrence: 121/170, 71%"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "description": "Occurrence: 111/170, 65%"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "description": "Occurrence: 170/170, 100%"
+                      },
+                      "kind_detail": {
+                        "type": "string",
+                        "description": "Occurrence: 89/170, 52%"
+                      },
+                      "landuse_kind": {
+                        "type": "string",
+                        "description": "Occurrence: 81/170, 47%"
+                      },
+                      "layer": {
+                        "type": "number",
+                        "description": "Occurrence: 16/170, 9%"
+                      },
+                      "min_height": {
+                        "type": "number",
+                        "description": "Occurrence: 18/170, 10%"
+                      },
+                      "min_zoom": {
+                        "type": "number",
+                        "description": "Occurrence: 170/170, 100%"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Occurrence: 18/170, 10%"
+                      },
+                      "name:ar": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:cs": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:da": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:el": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:en": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:es": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:fa": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:fi": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:fr": {
+                        "type": "string",
+                        "description": "Occurrence: 3/170, 1%"
+                      },
+                      "name:he": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:is": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:it": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:ja": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:lt": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:nl": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:no": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:pl": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:pt": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:ro": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:ru": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:sk": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:sv": {
+                        "type": "string",
+                        "description": "Occurrence: 2/170, 1%"
+                      },
+                      "name:uk": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "name:zh": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "old_name": {
+                        "type": "string",
+                        "description": "Occurrence: 1/170, 0%"
+                      },
+                      "osm_relation": {
+                        "type": "boolean",
+                        "description": "Occurrence: 25/170, 14%"
+                      },
+                      "roof_height": {
+                        "type": "string",
+                        "description": "Occurrence: 10/170, 5%"
+                      },
+                      "roof_material": {
+                        "type": "string",
+                        "description": "Occurrence: 11/170, 6%"
+                      },
+                      "roof_orientation": {
+                        "type": "string",
+                        "description": "Occurrence: 4/170, 2%"
+                      },
+                      "roof_shape": {
+                        "type": "string",
+                        "description": "Occurrence: 68/170, 40%"
+                      },
+                      "scale_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 170/170, 100%"
+                      },
+                      "sort_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 170/170, 100%"
+                      },
+                      "source": {
+                        "type": "string",
+                        "description": "Occurrence: 170/170, 100%"
+                      },
+                      "volume": {
+                        "type": "integer",
+                        "description": "Occurrence: 121/170, 71%"
+                      }
+                    },
+                    "required": [
+                      "area",
+                      "kind",
+                      "min_zoom",
+                      "scale_rank",
+                      "sort_rank",
+                      "source"
+                    ],
+                    "description": "Occurrence: 170/170, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 170/170, 100%"
+                  }
+                },
+                "required": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ],
+                "description": "Occurrence: 170/170, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "earth": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number",
+                              "description": "Occurrence: 5/5, 100%"
+                            },
+                            "description": "Occurrence: 5/5, 100%"
+                          },
+                          "description": "Occurrence: 1/1, 100%"
+                        },
+                        "description": "Occurrence: 1/1, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 1/1, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "type"
+                    ],
+                    "description": "Occurrence: 1/1, 100%"
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer",
+                        "description": "Occurrence: 1/1, 100%"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "description": "Occurrence: 1/1, 100%"
+                      },
+                      "sort_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 1/1, 100%"
+                      },
+                      "source": {
+                        "type": "string",
+                        "description": "Occurrence: 1/1, 100%"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "kind",
+                      "sort_rank",
+                      "source"
+                    ],
+                    "description": "Occurrence: 1/1, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 1/1, 100%"
+                  }
+                },
+                "required": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ],
+                "description": "Occurrence: 1/1, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "landuse": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number",
+                              "description": "Occurrence: 1655/1655, 100%"
+                            },
+                            "description": "Occurrence: 1655/1655, 100%"
+                          },
+                          "description": "Occurrence: 212/212, 100%"
+                        },
+                        "description": "Occurrence: 185/185, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 185/185, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "type"
+                    ],
+                    "description": "Occurrence: 185/185, 100%"
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "area": {
+                        "type": "integer",
+                        "description": "Occurrence: 185/185, 100%"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "description": "Occurrence: 185/185, 100%"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "description": "Occurrence: 185/185, 100%"
+                      },
+                      "min_zoom": {
+                        "type": "number",
+                        "description": "Occurrence: 185/185, 100%"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Occurrence: 4/185, 2%"
+                      },
+                      "name:fr": {
+                        "type": "string",
+                        "description": "Occurrence: 1/185, 0%"
+                      },
+                      "name:ru": {
+                        "type": "string",
+                        "description": "Occurrence: 1/185, 0%"
+                      },
+                      "name:uk": {
+                        "type": "string",
+                        "description": "Occurrence: 1/185, 0%"
+                      },
+                      "natural": {
+                        "type": "string",
+                        "description": "Occurrence: 15/185, 8%"
+                      },
+                      "operator": {
+                        "type": "string",
+                        "description": "Occurrence: 1/185, 0%"
+                      },
+                      "osm_relation": {
+                        "type": "boolean",
+                        "description": "Occurrence: 14/185, 7%"
+                      },
+                      "sort_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 185/185, 100%"
+                      },
+                      "source": {
+                        "type": "string",
+                        "description": "Occurrence: 185/185, 100%"
+                      },
+                      "sport": {
+                        "type": "string",
+                        "description": "Occurrence: 4/185, 2%"
+                      },
+                      "surface": {
+                        "type": "string",
+                        "description": "Occurrence: 1/185, 0%"
+                      },
+                      "tier": {
+                        "type": "integer",
+                        "description": "Occurrence: 38/185, 20%"
+                      }
+                    },
+                    "required": [
+                      "area",
+                      "id",
+                      "kind",
+                      "min_zoom",
+                      "sort_rank",
+                      "source"
+                    ],
+                    "description": "Occurrence: 185/185, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 185/185, 100%"
+                  }
+                },
+                "required": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ],
+                "description": "Occurrence: 185/185, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "places": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "pois": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "number",
+                          "description": "Occurrence: 99/99, 100%"
+                        },
+                        "description": "Occurrence: 99/99, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 99/99, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "type"
+                    ],
+                    "description": "Occurrence: 99/99, 100%"
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "area": {
+                        "type": "integer",
+                        "description": "Occurrence: 92/99, 92%"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "description": "Occurrence: 99/99, 100%"
+                      },
+                      "is_light_rail": {
+                        "type": "boolean",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "is_subway": {
+                        "type": "boolean",
+                        "description": "Occurrence: 2/99, 2%"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "description": "Occurrence: 99/99, 100%"
+                      },
+                      "kind_tile_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 2/99, 2%"
+                      },
+                      "light_rail_routes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "description": "Occurrence: 1/1, 100%"
+                        },
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "min_zoom": {
+                        "type": "number",
+                        "description": "Occurrence: 99/99, 100%"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Occurrence: 28/99, 28%"
+                      },
+                      "name:de": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "name:en": {
+                        "type": "string",
+                        "description": "Occurrence: 4/99, 4%"
+                      },
+                      "name:es": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "name:fr": {
+                        "type": "string",
+                        "description": "Occurrence: 2/99, 2%"
+                      },
+                      "name:no": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "name:pl": {
+                        "type": "string",
+                        "description": "Occurrence: 2/99, 2%"
+                      },
+                      "name:ru": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "name:sv": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "name:tr": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "name:uk": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "old_name": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "operator": {
+                        "type": "string",
+                        "description": "Occurrence: 4/99, 4%"
+                      },
+                      "osm_relation": {
+                        "type": "boolean",
+                        "description": "Occurrence: 13/99, 13%"
+                      },
+                      "ref": {
+                        "type": "string",
+                        "description": "Occurrence: 1/99, 1%"
+                      },
+                      "root_id": {
+                        "type": "integer",
+                        "description": "Occurrence: 2/99, 2%"
+                      },
+                      "source": {
+                        "type": "string",
+                        "description": "Occurrence: 99/99, 100%"
+                      },
+                      "subway_routes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "description": "Occurrence: 2/2, 100%"
+                        },
+                        "description": "Occurrence: 2/99, 2%"
+                      },
+                      "tier": {
+                        "type": "integer",
+                        "description": "Occurrence: 69/99, 69%"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "kind",
+                      "min_zoom",
+                      "source"
+                    ],
+                    "description": "Occurrence: 99/99, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 99/99, 100%"
+                  }
+                },
+                "required": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ],
+                "description": "Occurrence: 99/99, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "roads": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "anyOf": [
+                              {
+                                "type": "number",
+                                "description": "Occurrence: 503/1969, 25%"
+                              },
+                              {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "description": "Occurrence: 3389/3389, 100%"
+                                },
+                                "description": "Occurrence: 3389/1969, 172%"
+                              }
+                            ]
+                          },
+                          "description": "Occurrence: 1969/1969, 100%"
+                        },
+                        "description": "Occurrence: 325/325, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 325/325, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "type"
+                    ],
+                    "description": "Occurrence: 325/325, 100%"
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "bicycle": {
+                        "type": "string",
+                        "description": "Occurrence: 85/325, 26%"
+                      },
+                      "bicycle_network": {
+                        "type": "string",
+                        "description": "Occurrence: 54/325, 16%"
+                      },
+                      "cycleway": {
+                        "type": "string",
+                        "description": "Occurrence: 66/325, 20%"
+                      },
+                      "cycleway_left": {
+                        "type": "string",
+                        "description": "Occurrence: 1/325, 0%"
+                      },
+                      "cycleway_right": {
+                        "type": "string",
+                        "description": "Occurrence: 1/325, 0%"
+                      },
+                      "description": {
+                        "type": "string",
+                        "description": "Occurrence: 3/325, 0%"
+                      },
+                      "foot": {
+                        "type": "string",
+                        "description": "Occurrence: 14/325, 4%"
+                      },
+                      "horse": {
+                        "type": "string",
+                        "description": "Occurrence: 1/325, 0%"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "description": "Occurrence: 177/325, 54%"
+                      },
+                      "incline": {
+                        "type": "string",
+                        "description": "Occurrence: 6/325, 1%"
+                      },
+                      "is_bicycle_related": {
+                        "type": "boolean",
+                        "description": "Occurrence: 161/325, 49%"
+                      },
+                      "is_bridge": {
+                        "type": "boolean",
+                        "description": "Occurrence: 8/325, 2%"
+                      },
+                      "is_bus_route": {
+                        "type": "boolean",
+                        "description": "Occurrence: 49/325, 15%"
+                      },
+                      "is_link": {
+                        "type": "boolean",
+                        "description": "Occurrence: 1/325, 0%"
+                      },
+                      "is_tunnel": {
+                        "type": "boolean",
+                        "description": "Occurrence: 27/325, 8%"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "description": "Occurrence: 325/325, 100%"
+                      },
+                      "kind_detail": {
+                        "type": "string",
+                        "description": "Occurrence: 325/325, 100%"
+                      },
+                      "landuse_kind": {
+                        "type": "string",
+                        "description": "Occurrence: 151/325, 46%"
+                      },
+                      "loc_name": {
+                        "type": "string",
+                        "description": "Occurrence: 4/325, 1%"
+                      },
+                      "min_zoom": {
+                        "type": "number",
+                        "description": "Occurrence: 325/325, 100%"
+                      },
+                      "motor_vehicle": {
+                        "type": "string",
+                        "description": "Occurrence: 9/325, 2%"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Occurrence: 219/325, 67%"
+                      },
+                      "name:be": {
+                        "type": "string",
+                        "description": "Occurrence: 12/325, 3%"
+                      },
+                      "name:en": {
+                        "type": "string",
+                        "description": "Occurrence: 4/325, 1%"
+                      },
+                      "name:es": {
+                        "type": "string",
+                        "description": "Occurrence: 4/325, 1%"
+                      },
+                      "name:et": {
+                        "type": "string",
+                        "description": "Occurrence: 8/325, 2%"
+                      },
+                      "name:fr": {
+                        "type": "string",
+                        "description": "Occurrence: 9/325, 2%"
+                      },
+                      "name:he": {
+                        "type": "string",
+                        "description": "Occurrence: 17/325, 5%"
+                      },
+                      "name:hu": {
+                        "type": "string",
+                        "description": "Occurrence: 4/325, 1%"
+                      },
+                      "name:ja": {
+                        "type": "string",
+                        "description": "Occurrence: 17/325, 5%"
+                      },
+                      "name:la": {
+                        "type": "string",
+                        "description": "Occurrence: 4/325, 1%"
+                      },
+                      "name:nl": {
+                        "type": "string",
+                        "description": "Occurrence: 4/325, 1%"
+                      },
+                      "name:pl": {
+                        "type": "string",
+                        "description": "Occurrence: 20/325, 6%"
+                      },
+                      "name:ro": {
+                        "type": "string",
+                        "description": "Occurrence: 8/325, 2%"
+                      },
+                      "name:ru": {
+                        "type": "string",
+                        "description": "Occurrence: 25/325, 7%"
+                      },
+                      "name:sh": {
+                        "type": "string",
+                        "description": "Occurrence: 8/325, 2%"
+                      },
+                      "name:sk": {
+                        "type": "string",
+                        "description": "Occurrence: 8/325, 2%"
+                      },
+                      "name:sr": {
+                        "type": "string",
+                        "description": "Occurrence: 8/325, 2%"
+                      },
+                      "name:tr": {
+                        "type": "string",
+                        "description": "Occurrence: 4/325, 1%"
+                      },
+                      "name:uk": {
+                        "type": "string",
+                        "description": "Occurrence: 13/325, 4%"
+                      },
+                      "name:zh": {
+                        "type": "string",
+                        "description": "Occurrence: 24/325, 7%"
+                      },
+                      "old_name": {
+                        "type": "string",
+                        "description": "Occurrence: 7/325, 2%"
+                      },
+                      "oneway_bicycle": {
+                        "type": "string",
+                        "description": "Occurrence: 8/325, 2%"
+                      },
+                      "operator": {
+                        "type": "string",
+                        "description": "Occurrence: 13/325, 4%"
+                      },
+                      "ref": {
+                        "type": "string",
+                        "description": "Occurrence: 34/325, 10%"
+                      },
+                      "segregated": {
+                        "type": "boolean",
+                        "description": "Occurrence: 11/325, 3%"
+                      },
+                      "service": {
+                        "type": "string",
+                        "description": "Occurrence: 3/325, 0%"
+                      },
+                      "sort_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 325/325, 100%"
+                      },
+                      "source": {
+                        "type": "string",
+                        "description": "Occurrence: 325/325, 100%"
+                      },
+                      "trail_visibility": {
+                        "type": "string",
+                        "description": "Occurrence: 2/325, 0%"
+                      },
+                      "walking_network": {
+                        "type": "string",
+                        "description": "Occurrence: 28/325, 8%"
+                      }
+                    },
+                    "required": [
+                      "kind",
+                      "kind_detail",
+                      "min_zoom",
+                      "sort_rank",
+                      "source"
+                    ],
+                    "description": "Occurrence: 325/325, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 325/325, 100%"
+                  }
+                },
+                "required": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ],
+                "description": "Occurrence: 325/325, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "transit": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "type": "array",
+                          "items": {
+                            "anyOf": [
+                              {
+                                "type": "array",
+                                "items": {
+                                  "type": "number",
+                                  "description": "Occurrence: 427/427, 100%"
+                                },
+                                "description": "Occurrence: 427/231, 184%"
+                              },
+                              {
+                                "type": "number",
+                                "description": "Occurrence: 131/231, 56%"
+                              }
+                            ]
+                          },
+                          "description": "Occurrence: 231/231, 100%"
+                        },
+                        "description": "Occurrence: 66/66, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 66/66, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "type"
+                    ],
+                    "description": "Occurrence: 66/66, 100%"
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "colour": {
+                        "type": "string",
+                        "description": "Occurrence: 41/66, 62%"
+                      },
+                      "description": {
+                        "type": "string",
+                        "description": "Occurrence: 7/66, 10%"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "description": "Occurrence: 48/66, 72%"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "description": "Occurrence: 66/66, 100%"
+                      },
+                      "min_zoom": {
+                        "type": "number",
+                        "description": "Occurrence: 66/66, 100%"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Occurrence: 66/66, 100%"
+                      },
+                      "name:de": {
+                        "type": "string",
+                        "description": "Occurrence: 1/66, 1%"
+                      },
+                      "name:en": {
+                        "type": "string",
+                        "description": "Occurrence: 1/66, 1%"
+                      },
+                      "network": {
+                        "type": "string",
+                        "description": "Occurrence: 48/66, 72%"
+                      },
+                      "operator": {
+                        "type": "string",
+                        "description": "Occurrence: 61/66, 92%"
+                      },
+                      "osm_relation": {
+                        "type": "boolean",
+                        "description": "Occurrence: 66/66, 100%"
+                      },
+                      "ref": {
+                        "type": "string",
+                        "description": "Occurrence: 66/66, 100%"
+                      },
+                      "service": {
+                        "type": "string",
+                        "description": "Occurrence: 41/66, 62%"
+                      },
+                      "sort_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 66/66, 100%"
+                      },
+                      "source": {
+                        "type": "string",
+                        "description": "Occurrence: 66/66, 100%"
+                      }
+                    },
+                    "required": [
+                      "kind",
+                      "min_zoom",
+                      "name",
+                      "osm_relation",
+                      "ref",
+                      "sort_rank",
+                      "source"
+                    ],
+                    "description": "Occurrence: 66/66, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 66/66, 100%"
+                  }
+                },
+                "required": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ],
+                "description": "Occurrence: 66/66, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        },
+        "water": {
+          "type": "object",
+          "properties": {
+            "features": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "coordinates": {
+                        "type": "array",
+                        "items": {
+                          "anyOf": [
+                            {
+                              "type": "array",
+                              "items": {
+                                "anyOf": [
+                                  {
+                                    "type": "array",
+                                    "items": {
+                                      "anyOf": [
+                                        {
+                                          "type": "number",
+                                          "description": "Occurrence: 193/207, 93%"
+                                        },
+                                        {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "number",
+                                            "description": "Occurrence: 107/107, 100%"
+                                          },
+                                          "description": "Occurrence: 107/207, 51%"
+                                        }
+                                      ]
+                                    },
+                                    "description": "Occurrence: 207/167, 123%"
+                                  },
+                                  {
+                                    "type": "number",
+                                    "description": "Occurrence: 136/167, 81%"
+                                  }
+                                ]
+                              },
+                              "description": "Occurrence: 167/46, 363%"
+                            },
+                            {
+                              "type": "number",
+                              "description": "Occurrence: 2/46, 4%"
+                            }
+                          ]
+                        },
+                        "description": "Occurrence: 46/46, 100%"
+                      },
+                      "type": {
+                        "type": "string",
+                        "description": "Occurrence: 46/46, 100%"
+                      }
+                    },
+                    "required": [
+                      "coordinates",
+                      "type"
+                    ],
+                    "description": "Occurrence: 46/46, 100%"
+                  },
+                  "properties": {
+                    "type": "object",
+                    "properties": {
+                      "area": {
+                        "type": "integer",
+                        "description": "Occurrence: 31/46, 67%"
+                      },
+                      "boundary": {
+                        "type": "boolean",
+                        "description": "Occurrence: 19/46, 41%"
+                      },
+                      "id": {
+                        "type": "integer",
+                        "description": "Occurrence: 42/46, 91%"
+                      },
+                      "intermittent": {
+                        "type": "boolean",
+                        "description": "Occurrence: 27/46, 58%"
+                      },
+                      "is_tunnel": {
+                        "type": "boolean",
+                        "description": "Occurrence: 4/46, 8%"
+                      },
+                      "kind": {
+                        "type": "string",
+                        "description": "Occurrence: 46/46, 100%"
+                      },
+                      "label_placement": {
+                        "type": "boolean",
+                        "description": "Occurrence: 2/46, 4%"
+                      },
+                      "min_zoom": {
+                        "type": "number",
+                        "description": "Occurrence: 27/46, 58%"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Occurrence: 6/46, 13%"
+                      },
+                      "name:pl": {
+                        "type": "string",
+                        "description": "Occurrence: 4/46, 8%"
+                      },
+                      "old_name": {
+                        "type": "string",
+                        "description": "Occurrence: 2/46, 4%"
+                      },
+                      "osm_relation": {
+                        "type": "boolean",
+                        "description": "Occurrence: 3/46, 6%"
+                      },
+                      "sort_rank": {
+                        "type": "integer",
+                        "description": "Occurrence: 46/46, 100%"
+                      },
+                      "source": {
+                        "type": "string",
+                        "description": "Occurrence: 46/46, 100%"
+                      }
+                    },
+                    "required": [
+                      "kind",
+                      "sort_rank",
+                      "source"
+                    ],
+                    "description": "Occurrence: 46/46, 100%"
+                  },
+                  "type": {
+                    "type": "string",
+                    "description": "Occurrence: 46/46, 100%"
+                  }
+                },
+                "required": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ],
+                "description": "Occurrence: 46/46, 100%"
+              },
+              "description": "Occurrence: 1/1, 100%"
+            },
+            "type": {
+              "type": "string",
+              "description": "Occurrence: 1/1, 100%"
+            }
+          },
+          "required": [
+            "features",
+            "type"
+          ],
+          "description": "Occurrence: 1/1, 100%"
+        }
+      },
+      "required": [
+        "boundaries",
+        "buildings",
+        "earth",
+        "landuse",
+        "places",
+        "pois",
+        "roads",
+        "transit",
+        "water"
+      ],
+      "time1": "0:00:00.467001"
+    },
+    {
+      "properties": {
+        "water": {
+          "properties": {
+            "features": {
+              "items": {
+                "properties": {
+                  "geometry": {
+                    "if": {
+                      "properties": {
+                        "type": {
+                          "const": "LineString"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "coordinates": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "buildings": {
+          "properties": {
+            "features": {
+              "items": {
+                "properties": {
+                  "geometry": {
+                    "if": {
+                      "properties": {
+                        "type": {
+                          "const": "Polygon"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "coordinates": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "array",
+                              "items": {
+                                "type": "number"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "transit": {
+          "properties": {
+            "features": {
+              "items": {
+                "properties": {
+                  "geometry": {
+                    "if": {
+                      "properties": {
+                        "type": {
+                          "const": "MultiLineString"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "coordinates": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "array",
+                              "items": {
+                                "type": "number"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "roads": {
+          "properties": {
+            "features": {
+              "items": {
+                "properties": {
+                  "geometry": {
+                    "allOf": [
+                      {
+                        "if": {
+                          "properties": {
+                            "type": {
+                              "const": "LineString"
+                            }
+                          }
+                        },
+                        "then": {
+                          "properties": {
+                            "coordinates": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "if": {
+                          "properties": {
+                            "type": {
+                              "const": "MultiLineString"
+                            }
+                          }
+                        },
+                        "then": {
+                          "properties": {
+                            "coordinates": {
+                              "type": "array",
+                              "items": {
+                                "type": "array",
+                                "items": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "number"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
