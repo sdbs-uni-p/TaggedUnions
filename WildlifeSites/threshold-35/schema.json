@@ -1,6 +1,6 @@
 {
   "title": "undefined",
-  "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 01:02:04.523822.",
+  "description": "JSON Schema for collection undefined of database noDB, created on 2022-08-03 16:15:09.914364.",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
@@ -139,5 +139,5 @@
     "name",
     "type"
   ],
-  "time1": "0:00:01.638002"
+  "time1": "0:00:02.307707"
 }

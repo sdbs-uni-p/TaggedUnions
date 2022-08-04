@@ -2,7 +2,7 @@
   "allOf": [
     {
       "title": "undefined",
-      "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 01:01:08.507823.",
+      "description": "JSON Schema for collection undefined of database noDB, created on 2022-08-03 16:14:05.635441.",
       "$schema": "http://json-schema.org/draft-07/schema#",
       "type": "object",
       "properties": {
@@ -141,7 +141,7 @@
         "name",
         "type"
       ],
-      "time1": "0:00:01.615001"
+      "time1": "0:00:02.301868"
     },
     {
       "properties": {
@@ -156,7 +156,10 @@
                         "type": {
                           "const": "Polygon"
                         }
-                      }
+                      },
+                      "required": [
+                        "type"
+                      ]
                     },
                     "then": {
                       "properties": {
@@ -181,7 +184,10 @@
                         "type": {
                           "const": "MultiPolygon"
                         }
-                      }
+                      },
+                      "required": [
+                        "type"
+                      ]
                     },
                     "then": {
                       "properties": {
@@ -211,7 +217,10 @@
                     "Date_LSPartnership_approval": {
                       "const": "20160121"
                     }
-                  }
+                  },
+                  "required": [
+                    "Date_LSPartnership_approval"
+                  ]
                 },
                 "then": {
                   "properties": {

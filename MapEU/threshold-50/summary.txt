@@ -1,7 +1,7 @@
 Lines in Schema without if-then-else:	 359
-Lines in Schema with if-then-else:		 449 (90 additional lines)
+Lines in Schema with if-then-else:		 458 (99 additional lines)
 
-Runtime: 3.584289789199829s
+Runtime: 4.37624192237854s
 If-then-else Relations found: 3
 
 Schema validation passed

@@ -2,7 +2,7 @@
   "allOf": [
     {
       "title": "undefined",
-      "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 00:59:02.378534.",
+      "description": "JSON Schema for collection undefined of database noDB, created on 2022-08-03 16:11:20.837971.",
       "$schema": "http://json-schema.org/draft-07/schema#",
       "type": "object",
       "properties": {
@@ -403,7 +403,7 @@
         "transform",
         "type"
       ],
-      "time1": "0:00:00.692501"
+      "time1": "0:00:01.145355"
     },
     {
       "properties": {
@@ -418,7 +418,10 @@
                         "type": {
                           "const": "Polygon"
                         }
-                      }
+                      },
+                      "required": [
+                        "type"
+                      ]
                     },
                     "then": {
                       "properties": {
@@ -448,7 +451,10 @@
                             "type": {
                               "const": "Polygon"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -467,7 +473,10 @@
                             "type": {
                               "const": "MultiPolygon"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -500,7 +509,10 @@
                         "type": {
                           "const": "LineString"
                         }
-                      }
+                      },
+                      "required": [
+                        "type"
+                      ]
                     },
                     "then": {
                       "properties": {
@@ -525,7 +537,10 @@
                         "type": {
                           "const": "Polygon"
                         }
-                      }
+                      },
+                      "required": [
+                        "type"
+                      ]
                     },
                     "then": {
                       "properties": {

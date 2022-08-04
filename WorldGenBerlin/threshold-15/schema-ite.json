@@ -2,7 +2,7 @@
   "allOf": [
     {
       "title": "undefined",
-      "description": "JSON Schema for collection undefined of database noDB, created on 2022-06-14 00:59:56.587321.",
+      "description": "JSON Schema for collection undefined of database noDB, created on 2022-08-03 16:12:35.623092.",
       "$schema": "http://json-schema.org/draft-07/schema#",
       "type": "object",
       "properties": {
@@ -1337,7 +1337,7 @@
         "transit",
         "water"
       ],
-      "time1": "0:00:00.469501"
+      "time1": "0:00:00.817123"
     },
     {
       "properties": {
@@ -1354,7 +1354,10 @@
                             "type": {
                               "const": "LineString"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -1376,7 +1379,10 @@
                             "type": {
                               "const": "Polygon"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -1415,7 +1421,10 @@
                             "type": {
                               "const": "Polygon"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -1440,7 +1449,10 @@
                             "type": {
                               "const": "MultiPolygon"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -1482,7 +1494,10 @@
                             "type": {
                               "const": "LineString"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -1504,7 +1519,10 @@
                             "type": {
                               "const": "MultiLineString"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -1543,7 +1561,10 @@
                             "type": {
                               "const": "LineString"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
@@ -1565,7 +1586,10 @@
                             "type": {
                               "const": "MultiLineString"
                             }
-                          }
+                          },
+                          "required": [
+                            "type"
+                          ]
                         },
                         "then": {
                           "properties": {
